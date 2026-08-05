@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Suryansh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Suryansh <span>Ranjan</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi I'm <span>Suryansh</span></h1>
+            <h3>I am a <span>Frontend Web Developer</span></h3>
+            <p>
+                I specialize in creating responsive and accessible websites 
+                with a focus on performance and user experience. 
+                I enjoy transforming designs into functional interfaces 
+                while continuously exploring modern web technologies to 
+                enhance my development skills.
+            </p>
+            <div class="social-icons">
+                <a href="https://github.com/Suryanshhhh72" target="_blank"rel="noopener noreferrer">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/suryansh-ranjan-397439328" target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="mailto:suryanshranjan2936@gmail.com" target="_blank">
+                    <i class="bx bx-envelope"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bx-download"></i>
+                </a>
+            </div>
+            <div class="btn-group">
+                <a href="#project" class="btn">View Projects</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="IMG-20260402-WA0069.jpg">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="IMG-20260402-WA0069.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>
+                I'm Suryansh Ranjan, a Frontend Web Developer passionate about building responsive and user-friendly websites.
+                I enjoy transforming ideas into interactive web experiences using HTML, CSS, and JavaScript 
+                while continuously improving my skills.
+                Every project I build helps me learn something new and pushes me toward becoming a better developer.
+                I'm always excited to take on new challenges and collaborate on meaningful projects.
+            </p>
+        </div>
+
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-alt"></i>
+                    <h4>Frontend Development</h4>
+                    <p>Building responsive and interactive websites using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-devices"></i>
+                    <h4>Responsive Web Design</h4>
+                    <p>Creating layouts that adapt seamlessly across desktop, tablet, and mobile devices.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-pointer"></i>
+                    <h4>Interactive User Interface</h4>
+                    <p>Creating engaging user interfaces with smooth animations and intuitive interactions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <h2 class="heading">Projects</h2>
+        <div class="project-box">
+            <div class="project-card">
+                <img src="Screenshot (69).png" alt="">
+                <h3>Spotify Clone</h3>
+                <div class="tech">
+                    <span class="A1">HTML</span>
+                    <span class="A1">CSS</span>
+                    <span class="A1">JavaScript</span>
+                </div>
+                <p>
+                    A responsive Spotify Clone inspired by Spotify's modern interface. 
+                    Built with HTML, CSS, and JavaScript, featuring a pixel-perfect layout, 
+                    scrollable sections, and a custom music player.
+                </p>
+                <div class="Reviewbtn">
+                    <a href="https://suryanshhhh72.github.io/Spotify-clone/" target="_blank" class="btn">Live Demo <i class='bx bx-right-top-arrow-circle'></i></a>
+                    <a href="https://github.com/Suryanshhhh72/Spotify-clone" target="_blank" class="btn">GitHub <i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <!--<img src="IMG-20260402-WA0069.jpg" alt="">-->
+                <i class='bx bx-rocket rocket'></i>
+                <h3 class="soon">Coming Soon...</h3>
+                <p class="soon1">
+                    New projects are on the way. Stay tuned for more exciting work!
+                </p>
+                <!--<div class="Reviewbtn">
+                    <a href="" class="btn">Live Demo <i class='bx bx-right-top-arrow-circle'></i></a>
+                    <a href="" class="btn">GitHub <i class='bx bxl-github'></i></a>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+            <div class="input-grp">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-grp2">
+                <textarea name="" id="" placeholder="Your Mesage" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social-icons">
+            <h2>Let's Connect</h2>
+            <a href="https://github.com/Suryanshhhh72" target="_blank"rel="noopener noreferrer">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/suryansh-ranjan-397439328" target="_blank">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="mailto:suryanshranjan2936@gmail.com" target="_blank">
+                <i class="bx bx-envelope"></i>
+            </a>
+            <a href="#">
+                <i class="bx bx-download"></i>
+            </a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#project">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            &copy; Designed and developed by Suryansh Ranjan.
+
+        </p>
+    </footer>
+</body>
+</html>
